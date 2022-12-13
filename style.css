@@ -1,0 +1,68 @@
+#myvideo
+{
+	
+	right:0;
+	bottom:0;
+	min-width:100%;
+	min-height:100%;
+}
+.content
+{
+	position:fixed;
+	bottom:0;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Helvetica;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.header,
+.footer
+{
+   
+    text-align: right;
+    padding: 60px;
+}
+
+.header
+{
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.main
+{
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.forms
+{
+    margin: 10px;
+}
+
+label,input
+{
+    display: block;
+}
+
+input
+{
+    border: none;
+    outline: none;
+    font-size: 2rem;
+    border-bottom: 5px solid black;
+}
